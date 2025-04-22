@@ -1,20 +1,20 @@
-Traffic Congestion Prediction Using Machine Learning
+# Traffic Congestion Prediction Using Machine Learning
+
 This repository contains the code to predict traffic congestion levels (High, Medium, or Low) for road sections using traffic sensor data. The project leverages a Random Forest Classifier to classify traffic congestion levels based on the available data.
 
-Project Overview
-Input: Traffic sensor data stored in a CSV file. The dataset contains various features (e.g., vehicle count, speed, time of day) that can be used to predict the congestion level for a road section.
+## Project Overview
 
-Output: Predicted congestion level (High, Medium, Low) for a given set of input features.
+- **Input:** Traffic sensor data stored in a CSV file. The dataset contains various features (e.g., vehicle count, speed, time of day) that can be used to predict the congestion level for a road section.
+- **Output:** Predicted congestion level (High, Medium, Low) for a given set of input features.
+- **Model:** Random Forest Classifier, trained on the input features to classify the target column (traffic congestion).
 
-Model: Random Forest Classifier, trained on the input features to classify the target column (traffic congestion).
+## Requirements
 
-Requirements
 Ensure the following libraries are installed:
 
-bash
-Copy
-Edit
+```bash
 pip install pandas numpy seaborn matplotlib scikit-learn google-colab
+
 Steps to Use the Code
 Step 1: Import Required Libraries
 The necessary Python libraries are imported to handle data manipulation, visualization, machine learning, and model evaluation.
@@ -138,5 +138,4 @@ Edit
 Conclusion
 This project demonstrates how machine learning can be used to predict traffic congestion levels based on sensor data. The Random Forest model can be further tuned and improved by adjusting hyperparameters or using a different machine learning algorithm depending on the dataset's complexity and the accuracy required.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
